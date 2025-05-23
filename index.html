@@ -600,8 +600,8 @@
                 const defaultClocksData = [
                     { city: 'New York', timezone: 'America/New_York' },
                     { city: 'London', timezone: 'Europe/London' },
-                    { city: 'Kolkata', timezone: 'Asia/Kolkata' }
                     { city: 'Tokyo', timezone: 'Asia/Tokyo' },
+                    { city: 'Kolkata', timezone: 'Asia/Kolkata' }
                 ];
                 defaultClocksData.forEach(dc => {
                     const id = `clock-${Date.now()}-${Math.random().toString(36).substring(2,7)}-${dc.city.replace(/\s+/g, '')}`;
